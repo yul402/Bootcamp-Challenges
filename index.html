@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Ying Li's Portfolio</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <img src="./assets/images/Ying_image.png" style="border-radius: 50%; float:none; width:80px;height:80px">
+            <h1>Ying Li<span class="header-text">'s Portfolio</span></h1>
+        </header>
+
+        <!-- Navbar -->
+        <nav>
+            <a href="#About-Me">About Me</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact-Me">Contact Me</a>
+            <a href="#Contact-Me">Resume</a>
+        </nav>
+        
+        <!--Grass Decoration Image-->
+        <div class="decoration-image">
+            <img src="./assets/images/Grass.jpeg" class="grass"/>
+        </div>
+
+        <!-- main -->
+        <main>
+            <table style="display:flex; width:100%; border-spacing: 1rem;">
+                <!--Section 1: About Me-->
+                <tr id="About-Me">
+                    <td class = "Column-1">About Me</td>
+                    <td class ="Column-2">
+                        <p>
+                            Hi. Welcome to Ying Li's profile page. 
+                            <br>
+                            I am a recent graduate from Boston University's Questrom School of Business with a Master's of Science in Business Analytics. I enjoy the idea of solving real world problems systematically and therefore am always interested in exploring, learning, and coding. As I am diving deeper into the analytics field, I am realizing how interesting and dynamic it is. Everything is interconnected in some sense and I am working hard to learn as much as possible to build a strong foundation/infrastructure for myself. Now, I am moving forward to learn the full pipeline for implementing data science project as it is essential for the program to be delivered to user.
+                        </p>
+                    </td>
+                </tr>
+                <BR>
+
+                <!--Section 2: Work-->
+                <tr id="Work">
+                    <td class = "Column-1">Work</td>
+                    <td class ="Column-2">
+                        <div class="work-collection">
+                            <!--Work 1 is one row; 100% width-->
+                            <div id="work-1-container">
+                                <a href="https://elias-montes.github.io/MovieVault-Project/">
+                                    <div class= "img-content" id="work-1">
+                                        <header>MovieVault Project</header>
+                                    </div>
+                                </a>
+                                <div id="work-1-intro" class="intro">
+                                    <h3>MovieVault</h3>
+                                    <p>
+                                        In this project, a web-based application is built for users to track their movie/show journal. They can get detailed information about the movie/show and add it to the “Wish List” or “Watched List”.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--Work 2 & work 3 in same row; flex & 50% for each-->
+                            <div class="row-work-2-3">
+                                <div id="work-2-container">
+                                    <div id="work-2-container-a">
+                                        <a href="https://mvc-project-2-9329043fdd43.herokuapp.com/" class="a-tag">
+                                            <div class= "img-content" id="work-2">
+                                                <header>Fund Better</header>
+                                            </div>
+                                        </a>
+                                        <div id="work-2-intro" class="intro">
+                                            <h3>Fund Better</h3>
+                                            <p>Create funding project and make contribution to existing project.</p>    
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="work-3-container">
+                                    <div id="work-3-container-a">
+                                        <a href="#" class="a-tag">
+                                            <div class= "img-content" id="work-3">
+                                                <header>My Work Demo 3</header>
+                                            </div>
+                                        </a>
+                                        <div id="work-3-intro" class="intro">
+                                            <h3>My Work #3</h3>
+                                            <p>Some introduction about my work.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <br>
+                <!--Section 3: Contact Me-->
+                <tr id="Contact-Me">
+                    <td class = "Column-1">Contact Me</td>
+                    <td class ="Column-2">
+                        <ul>
+                            <li><a href="tel:+8572107887">857.210.7887</a></li>
+                            <li><a href="mailto:someone@example.com">Ying.li20@outlook.com</a></li>
+                            <li><a href="https://github.com/yul402?tab=projects">Github</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <!--Section 4: Resume-->
+                <tr id="Resume">
+                    <td class = "Column-1">Resume</td>
+                    <td class ="Column-2">
+                        <p>
+                            <a href="./assets/files/Ying_Li_Resume.pdf" download="YingLi_Resume">Download Resume</a>
+                        </p>
+                    </td>
+                </tr>
+
+            </table>
+        </main>
+    </body>
+</html>
+
+
+
+

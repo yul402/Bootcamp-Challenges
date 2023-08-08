@@ -1,4 +1,5 @@
 # Project: Personal Portfolio
+Deployment link: https://yul402.github.io/Bootcamp-Challenges/
 
 "Challenge 2" folder contains the html file, css stylesheets, image folder and file folder used for building up the personal portfolio.
 
